@@ -6,7 +6,7 @@ using namespace std;
 void merge(string arr[], int left, int mid, int right) {
     int n1 = mid - left + 1;
     int n2 = right - mid;
-
+// Nandita Salwa Utarie ( 241011401425 )
     string L[n1], R[n2];
 
     for (int i = 0; i < n1; i++) L[i] = arr[left + i];
@@ -53,7 +53,7 @@ int main() {
 
     // Urutkan dataset menggunakan Merge Sort
     mergeSort(members, 0, size - 1);
-
+// Nandita Salwa Utarie ( 241011401425 )
     // Nama yang ingin dicari
     string target;
     cout << "Masukkan nama anggota TWICE yang ingin dicari: ";
